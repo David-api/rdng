@@ -1,0 +1,56 @@
+#footer {
+  background-color: #0d1114;
+  height: fit-content;
+  width: 100%;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer a:visited {
+  color: white;
+}
+
+#footer ul {
+  list-style-type: none;
+  color: white;
+}
+
+.footer-inner {
+  max-width: 800px;
+
+  height: fit-content;
+  margin: 0 auto;
+}
+
+#left {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5%;
+}
+#left ul {
+  width: fit-content;
+}
+
+#left ul li {
+  width: 200px;
+}
+
+#left ul li a {
+  display: inline;
+  margin: 5% 5% 5% 0;
+  color: #005e9e;
+}
+
+#left ul li a:visited {
+  color: #005e9e;
+}
+
+#right {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5%;
+}

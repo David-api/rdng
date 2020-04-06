@@ -1,0 +1,43 @@
+#companies {
+  width: 100%;
+  height: fit-content;
+  background-color: #0d1114;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-companies {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 4% auto;
+}
+
+/*vsaka vrstica ikon posebaj*/
+.icon-companies-inner {
+  width: fit-content;
+  display: inline-block;
+  margin: 3%;
+}
+
+/*ikone*/
+.icon-companies-inner img {
+  width: 150px;
+  margin: auto;
+}
+
+.icon-companies-inner img:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .icon-companies-inner img {
+    width: 200px;
+    margin: 10% 2%;
+  }
+}

@@ -1,0 +1,40 @@
+#contact {
+  width: 100%;
+  height: fit-content;
+  background-color: #005e9e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*vse ikone*/
+.icon-contact {
+  color: #363636;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*vsaka vrstica ikon posebaj*/
+.icon-contact-inner {
+  display: inline-block;
+  width: 200px;
+  margin: 3%;
+  vertical-align: middle;
+}
+
+/*besedilo*/
+.icon-contact-inner p {
+  width: 100%;
+  vertical-align: middle;
+  margin: 20% auto;
+  font-size: 23px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .icon-contact-inner {
+    margin: 5%;
+  }
+}

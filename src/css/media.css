@@ -1,0 +1,41 @@
+#media {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  color: #005e9e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-media {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+/*vsaka vrstica ikon posebaj*/
+.icon-media-inner {
+  display: inline-block;
+  margin: 3%;
+}
+
+/*ikone*/
+.icon-media-inner img {
+  width: 140px;
+  display: inline-block;
+}
+
+.icon-media-inner img:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .icon-media-inner img {
+    width: 180px;
+    margin: 10% 2%;
+  }
+}
